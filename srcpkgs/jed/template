@@ -1,0 +1,17 @@
+# Template file for 'jed'
+pkgname=jed
+version=0.99.19
+revision=1
+build_style="gnu-configure"
+configure_args="--with-slang=${XBPS_CROSS_BASE}/usr --with-gtk"
+make_build_target="jed xjed"
+hostmakedepends="pkg-config"
+makedepends="slang-devel gtk+-devel libXft-devel pango-devel libXt-devel"
+depends="slang gtk+ pango-xft pango libXft libXt"
+short_desc="The JED Programmer's Editor"
+maintainer="Hao Chi Kiang <hello@hckiang.com>"
+license="GPL-2.0-only"
+homepage="https://www.jedsoft.org/jed/"
+distfiles="https://www.jedsoft.org/releases/jed/jed-0.99-19.tar.bz2"
+wrksrc="jed-0.99-19"
+checksum=97a339ce2fb0a446767ee550786e6914fa2e8cdbad39a402e48368cd0d6b5763
