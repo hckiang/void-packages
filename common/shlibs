@@ -326,7 +326,6 @@ libnotify.so.4 libnotify-0.7_1
 libexo-1.so.0 exo-0.7.3_1
 libexo-2.so.0 exo-0.12.0_1
 libglade-2.0.so.0 libglade-2.6.4_1
-libglademm-2.4.so.1 libglademm-2.6.7_1
 libthunarx-3.so.0 Thunar-1.8.1_1
 libexif.so.12 libexif-0.6.17_1
 liboil-0.3.so.0 liboil-0.3.16_1
@@ -661,7 +660,7 @@ libboost_fiber.so.1.80.0 libboost_fiber1.80-1.80.0_1
 libboost_stacktrace_noop.so.1.80.0 libboost_stacktrace_noop1.80-1.80.0_1
 libboost_stacktrace_addr2line.so.1.80.0 libboost_stacktrace_addr2line1.80-1.80.0_1
 libboost_stacktrace_basic.so.1.80.0 libboost_stacktrace_basic1.80-1.80.0_1
-libboost_python310.so.1.80.0 boost-python3-1.80-1.80.0_1
+libboost_python311.so.1.80.0 boost-python3-1.80-1.80.0_3
 libexempi.so.8 exempi-2.5.0_1
 libatasmart.so.4 libatasmart-0.17_1
 libsgutils2-1.45.so.2 libsgutils-1.45_1
@@ -1747,7 +1746,7 @@ libportaudiocpp.so.0 portaudio-cpp-19.20140130_1
 libdar.so.6000 libdar-2.6.6_1
 libdar64.so.6000 libdar-2.6.6_1
 libpython3.so python3-3.9.2_2
-libpython3.10.so.1.0 python3-3.10.0_1
+libpython3.11.so.1.0 python3-3.11.0_1
 libbrscandec2.so.1 brother-brscan3-0.2.11_2
 libpyglib-2.0-python.so.0 python-gobject2-2.28.6_11
 libxmlrpc_server_abyss.so.3 xmlrpc-c-1.51.06_2
@@ -1819,6 +1818,7 @@ libmateweather.so.1 libmateweather-1.8.0_1
 libmate-panel-applet-4.so.1 libmate-panel-1.8.0_1
 libslab.so.0 libmate-control-center-1.8.2_1
 liblz4.so.1 liblz4-1.8.2_1
+libdxcompiler.so.3.7 DirectXShaderCompiler-1.7.2207_1
 libatrilview.so.3 libatril-1.8.0_1
 libatrildocument.so.3 libatril-1.8.0_1
 libjawt.so openjdk8-jre-8u20_2
@@ -2046,6 +2046,7 @@ libQt6Quick.so.6 qt6-declarative-6.0.0_1
 libQt6QmlModels.so.6 qt6-declarative-6.0.0_1
 libQt6QuickLayouts.so.6 qt6-declarative-6.1.0_1
 libQt6QuickParticles.so.6 qt6-declarative-6.0.0_1
+libQt6QmlCompiler.so.6 qt6-declarative-6.4.0_1
 libQt6ShaderTools.so.6 qt6-shadertools-6.0.0_1
 libQt6Quick3D.so.6 qt6-quick3d-6.0.0_1
 libQt6Quick3DRuntimeRender.so.6 qt6-quick3d-6.0.0_1
@@ -2508,7 +2509,7 @@ libu2f-host.so.0 libu2f-host-1.1.10_5
 libu2f-server.so.0 libu2f-server-1.1.0_9
 libsqlcipher.so.0 sqlcipher-4.3.0_3
 libgta.so.1 libgta-1.2.0_1
-libgdal.so.26 libgdal-3.0.4_9
+libgdal.so.31 libgdal-3.5.3_1
 libosgViewer.so.131 osg-3.4.1_1
 libosgShadow.so.131 osg-3.4.1_1
 libosgParticle.so.131 osg-3.4.1_1
@@ -3532,7 +3533,7 @@ libmanette-0.2.so.0 libmanette-0.2.1_1
 libfmt.so.9 fmt-9.0.0_1
 libelementary-calendar.so.0 libio.elementary.calendar-4.2.3_1
 libolm.so.3 olm-3.0.0_1
-libtls.so.25 libtls-3.5.2_1
+libtls.so.26 libtls-3.6.1_1
 libxmlb.so.2 libxmlb-0.2.1_1
 libvoikko.so.1 libvoikko-4.2_1
 libfstrcmp.so.0 libfstrcmp-0.7.D001_1
@@ -4165,11 +4166,11 @@ libnvidia-container-go.so.1 libnvidia-container-1.10.0_1
 libqtspell-qt5.so.1 qtspell-1.0.1_1
 libopensmtpd.so.0 libopensmtpd-0.7_1
 libiio.so.0 libiio-0.23_1
-libqtforkawesome.so.0.0.4 qtforkawesome-0.0.4_1
-libqtquickforkawesome.so.0.0.4 qtforkawesome-0.0.4_1
-libsyncthingwidgets.so.2 syncthingtray-1.2.4_1
-libsyncthingmodel.so.2 syncthingtray-1.2.4_1
-libsyncthingconnector.so.2 syncthingtray-1.2.4_1
+libqtforkawesome.so.1 qtforkawesome-0.1.0_1
+libqtquickforkawesome.so.1 qtforkawesome-0.1.0_1
+libsyncthingwidgets.so.3 syncthingtray-1.3.0_1
+libsyncthingmodel.so.3 syncthingtray-1.3.0_1
+libsyncthingconnector.so.3 syncthingtray-1.3.0_1
 libglibutil.so.1 libglibutil-1.0.64_1
 libgbinder.so.1 libgbinder-1.1.20_1
 libsunpinyin.so.3 libsunpinyin-3.0.0rc2_1
