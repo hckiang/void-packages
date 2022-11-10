@@ -1,0 +1,15 @@
+# Template file for 'gitklient'
+pkgname=gitklient
+version=0.3
+revision=1
+wrksrc="GitKlient-${version}"
+build_style=cmake
+hostmakedepends="extra-cmake-modules pkg-config qt5-qmake qt5-host-tools kcoreaddons kdoctools"
+makedepends="gettext AppStream ktexteditor-devel kdoctools-devel kdbusaddons-devel ki18n-devel kxmlgui-devel kio-devel kconfigwidgets-devel ktextwidgets-devel syntax-highlighting-devel"
+depends="ktexteditor kdbusaddons ki18n kxmlgui kio kconfigwidgets ktextwidgets syntax-highlighting"
+short_desc="Graphical git client for KDE"
+maintainer="Hao Chi Kiang <hello@hckiang.com>"
+license="GPL-3.0-or-later"
+homepage="https://apps.kde.org/gitklient/"
+distfiles="https://github.com/HamedMasafi/GitKlient/archive/refs/tags/v${version}.zip"
+checksum=9fb624a19cee6add20d7a6276b637cb9516aeba8432df9c2b84b37142073d29e
